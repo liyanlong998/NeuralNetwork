@@ -94,13 +94,9 @@ with tqdm(total = total_iterations, desc = "训练进度" ) as pbar:
 
             #更新进度条
             pbar.update(1)
-
 print("训练完成")
 
-
-
-
-test_file = open("E:\\Vscodeprojects\\mnist_test.csv",'r')
+test_file = open("E:\\Vscodeprojects\\mnist_test.csv"，'r')
 test_list = test_file.readlines()
 test_file.close
 #设置一个计分卡
